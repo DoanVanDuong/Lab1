@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:pp="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:text="Thành phố"
+    android:gravity="center"
+    android:textSize="25dp"
+    android:textColor="@color/design_default_color_primary"
+    android:textStyle="italic|bold"/>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/edtCity"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/khung3"
+        android:hint="City"
+        android:paddingLeft="10dp" />
+<EditText
+        android:id="@+id/edtCountry"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/khung3"
+        android:hint="Country"
+        android:paddingLeft="10dp"
+    android:layout_marginTop="20dp"/>
+<EditText
+        android:id="@+id/edtPoPu"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/khung3"
+        android:hint="Population"
+        android:paddingLeft="10dp"
+    android:layout_marginTop="20dp"/>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="20dp"
+       android:orientation="horizontal"
+       android:gravity="center">
+
+
+   </LinearLayout>
+</LinearLayout>

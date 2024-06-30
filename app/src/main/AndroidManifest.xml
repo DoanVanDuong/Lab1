@@ -16,7 +16,7 @@
             android:name=".PhoneActivity"
             android:exported="false" />
         <activity
-            android:name=".LogoutActivity"
+            android:name=".HomeActivity"
             android:exported="false" />
         <activity
             android:name=".SignUpActivity"
